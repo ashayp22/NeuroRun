@@ -1,2 +1,2 @@
 # NeuroRun
-neuro run - combining the run game from coolmath with NEAT
+neuro run - Combining <Coolmath's Run game>(https://www.coolmathgames.com/0-run) with NEAT
