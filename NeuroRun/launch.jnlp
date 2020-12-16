@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="https://ashayp.com/NeuroRun/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>NeuroRun</title>
+        <vendor>Ashay Parikh</vendor>
+        <homepage href="https://ashayp.com/"/>
+        <description>Using NEAT to beat Run + can play against AI</description>
+        <description kind="short">NeuroRun</description>
+    <icon href="runsplash.png" kind="splash"/>
+<icon href="icon.PNG" kind="default"/>
+<offline-allowed/>
+</information>
+<security>
+<all-permissions/>
+</security>
+    <resources>
+<j2se version="1.7+"/>
+<jar href="NeuroRun.jar" main="true"/>
+<jar href="lib/assets.jar"/>
+    <jar href="lib/jme3-jogg-3.2.2-stable.jar"/>
+<jar href="lib/j-ogg-all-1.0.0.jar"/>
+<jar href="lib/jme3-networking-3.2.2-stable.jar"/>
+<jar href="lib/jme3-plugins-3.2.2-stable.jar"/>
+<jar href="lib/gson-2.8.1.jar"/>
+<jar href="lib/jme3-core-3.2.2-stable.jar"/>
+<jar href="lib/jme3-desktop-3.2.2-stable.jar"/>
+<jar href="lib/jme3-lwjgl-3.2.2-stable.jar"/>
+<jar href="lib/lwjgl-2.9.3.jar"/>
+<jar href="lib/jinput-2.0.5.jar"/>
+<jar href="lib/jinput-platform-2.0.5-natives-linux.jar"/>
+<jar href="lib/jinput-platform-2.0.5-natives-windows.jar"/>
+<jar href="lib/jinput-platform-2.0.5-natives-osx.jar"/>
+<jar href="lib/jutils-1.0.0.jar"/>
+<jar href="lib/lwjgl-platform-2.9.3-natives-windows.jar"/>
+<jar href="lib/lwjgl-platform-2.9.3-natives-linux.jar"/>
+<jar href="lib/lwjgl-platform-2.9.3-natives-osx.jar"/>
+<jar href="lib/jme3-effects-3.2.2-stable.jar"/>
+<jar href="lib/jme3-terrain-3.2.2-stable.jar"/>
+<jar href="lib/jme3-bullet-3.2.2-stable.jar"/>
+<jar href="lib/jme3-bullet-native-3.2.2-stable.jar"/>
+</resources>
+    <application-desc main-class="mygame.Main">
+    </application-desc>
+</jnlp>
