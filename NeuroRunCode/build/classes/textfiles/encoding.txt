@@ -1,0 +1,17 @@
+N:1,input,false,1.0,0.0,0.0
+N:2,input,false,1.0,0.0,4.0
+N:3,bias,false,1.0,0.0,8.0
+N:4,output,false,1.0,12.0,0.0
+N:5,output,false,1.0,12.0,4.0
+N:6,output,false,1.0,12.0,8.0
+L:1,4,1.0,true,false,7
+L:1,5,-0.6322462070953393,true,false,8
+L:1,6,1.0,false,false,9
+L:2,4,1.0,false,false,10
+L:2,5,1.0,false,false,11
+L:2,6,0.8869960373858223,true,false,12
+L:3,4,-1.0,false,false,13
+L:3,5,-1.0,false,false,14
+L:3,6,-1.0,true,false,15
+D:1
+F:1528.0
